@@ -1,1 +1,42 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/blueimp-gallery/js/blueimp-helper.js"></script>
+    <script src="node_modules/blueimp-gallery/js/blueimp-gallery.js"></script>
+    <script src="node_modules/blueimp-gallery/js/blueimp-gallery-fullscreen.js"></script>
+    <script src="node_modules/vue-gallery/dist/js/vue-gallery.js"></script>
+</head>
+
+<body>
+    <div id="app" :style="{overflow: getPage(currentPage).overflow ? 'visible' : 'hidden'}">
+        <page-header :pages="pages" :current-page="currentPage" @clicked="changePage"></page-header>
+        <div id="mainContent">
+            <keep-alive>
+                <component :is="currentPageComp"></component>
+            </keep-alive>
+        </div>
+    </div>
+</body>
+<script src="comps/image-slider.js"></script>
+<script src="comps/project.js"></script>
+<script src="comps/projects/project-rando.js"></script>
+<script src="comps/projects/project-gripper.js"></script>
+<script src="comps/projects/project-mobile.js"></script>
+<script src="comps/projects/project-portfolio.js"></script>
+<script src="comps/projects/project-other.js"></script>
+<script src="comps/project-nav.js"></script>
+<script src="comps/project-button.js"></script>
+<script src="comps/page.js"></script>
+<script src="comps/pages/page-about.js"></script>
+<script src="comps/pages/page-projects.js"></script>
+<script src="comps/pages/page-resume.js"></script>
+<script src="comps/header-page-button.js"></script>
+<script src="comps/header.js"></script>
+<script src="comps/main.js"></script>
+
+</html>
