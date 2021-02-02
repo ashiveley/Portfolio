@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "//ashiveley.github.io/Portfolio/static/css/main.889109e7.chunk.css",
-    "main.js": "//ashiveley.github.io/Portfolio/static/js/main.eb741638.chunk.js",
-    "main.js.map": "//ashiveley.github.io/Portfolio/static/js/main.eb741638.chunk.js.map",
-    "runtime-main.js": "//ashiveley.github.io/Portfolio/static/js/runtime-main.c5d40b8b.js",
-    "runtime-main.js.map": "//ashiveley.github.io/Portfolio/static/js/runtime-main.c5d40b8b.js.map",
-    "static/js/2.8cfa8a05.chunk.js": "//ashiveley.github.io/Portfolio/static/js/2.8cfa8a05.chunk.js",
-    "static/js/2.8cfa8a05.chunk.js.map": "//ashiveley.github.io/Portfolio/static/js/2.8cfa8a05.chunk.js.map",
-    "index.html": "//ashiveley.github.io/Portfolio/index.html",
-    "static/css/main.889109e7.chunk.css.map": "//ashiveley.github.io/Portfolio/static/css/main.889109e7.chunk.css.map",
-    "static/js/2.8cfa8a05.chunk.js.LICENSE.txt": "//ashiveley.github.io/Portfolio/static/js/2.8cfa8a05.chunk.js.LICENSE.txt"
+    "main.css": "/Portfolio/static/css/main.889109e7.chunk.css",
+    "main.js": "/Portfolio/static/js/main.eb741638.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.eb741638.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.896df889.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.896df889.js.map",
+    "static/js/2.8cfa8a05.chunk.js": "/Portfolio/static/js/2.8cfa8a05.chunk.js",
+    "static/js/2.8cfa8a05.chunk.js.map": "/Portfolio/static/js/2.8cfa8a05.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.889109e7.chunk.css.map": "/Portfolio/static/css/main.889109e7.chunk.css.map",
+    "static/js/2.8cfa8a05.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8cfa8a05.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5d40b8b.js",
+    "static/js/runtime-main.896df889.js",
     "static/js/2.8cfa8a05.chunk.js",
     "static/css/main.889109e7.chunk.css",
     "static/js/main.eb741638.chunk.js"
