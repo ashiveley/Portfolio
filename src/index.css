@@ -1,19 +1,19 @@
 body {
-  font: 14px "Century Gothic", sans-serif;
+  font: 18px "Century Gothic", sans-serif;
   margin: 0;
 }
 
 .container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 50px calc(100vh - 50px);
   grid-template-areas: "header header" "main main";
 }
 
-.coop {
+.selectablecontent {
   grid-area: main;
   display: grid;
-  grid-template-columns: 0.20fr 0.80fr;
+  grid-template-columns: 0.2fr 0.8fr;
   grid-template-rows: auto;
   grid-template-areas: "sidebar main";
 }
@@ -24,6 +24,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+h2 {
+  text-decoration: underline;
 }
 
 .topbar * {
@@ -52,23 +56,52 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  min-width: 90%;
 }
 
 .content {
   padding-left: 20px;
   padding-top: 10px;
   grid-area: main;
+  margin-right: 20%;
 }
 
 .linkbutton {
   margin: 5px 10px;
 }
 
+.side.linkbutton {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+
+.side.linkbutton * {
+  margin: 0;
+  margin-left: 5px;
+}
+
+.side.linkbutton .name {
+  text-decoration: underline;
+  color: blue;
+}
+
+.side.linkbutton .time {
+  font-size: 75%;
+  align-self: flex-end;
+}
+
 .linkbutton.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 
 h1 {
   font-size: 28px;
+}
+
+.image-gallery {
+  width: 50%;
 }
