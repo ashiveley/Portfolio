@@ -7,6 +7,7 @@ import {
 import SideLinkButton from '../sidelinkbutton';
 import CoopSpr20 from './coops/spr20';
 import CoopFal20 from './coops/fal20';
+import CoopMain from './coops/main';
 
 export default class Coop extends React.Component {
     render() {
@@ -19,6 +20,9 @@ export default class Coop extends React.Component {
                 <div class="content">
                     <h2>Co-op Experiences</h2>
                     <Switch>
+                        <Route exact path="/coop">
+                            <CoopMain/>
+                        </Route>
                         <Route exact path="/coop/fal20">
                             <CoopFal20/>
                         </Route>

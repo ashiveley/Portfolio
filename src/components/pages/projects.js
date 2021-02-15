@@ -12,6 +12,7 @@ import ProjectPortfolio from './projects/portfolio';
 import ProjectCubecats from './projects/cubecats';
 import ProjectWebScraper from './projects/covidnewsscraper';
 import ProjectOther from './projects/other';
+import ProjectMain from './projects/main';
 
 export default class Projects extends React.Component {
     render() {
@@ -29,6 +30,9 @@ export default class Projects extends React.Component {
                 <div class="content">
                     <h2>Projects &amp; Involvement</h2>
                     <Switch>
+                        <Route exact path="/projects">
+                            <ProjectMain/>
+                        </Route>
                         <Route exact path="/projects/rando">
                             <ProjectRando/>
                         </Route>
