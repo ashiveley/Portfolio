@@ -14,11 +14,12 @@ export default class Coop extends React.Component {
         return (
             <div class="selectablecontent">
                 <SideBar>
-                    <SideLinkButton link="/coop/fal20" name="#2. NLign Analytics" time="August 2020 - December 2020"></SideLinkButton>
-                    <SideLinkButton link="/coop/spr20" name="#1. NLign Analytics" time="January 2020 - May 2020"></SideLinkButton>
+                    <SideLinkButton exact link="/coop" time="&nbsp;">Overview</SideLinkButton>
+                    <SideLinkButton link="/coop/fal20"time="August 2020 - December 2020">#2. NLign Analytics</SideLinkButton>
+                    <SideLinkButton link="/coop/spr20" time="January 2020 - May 2020">#1. NLign Analytics</SideLinkButton>
                 </SideBar>
                 <div class="content">
-                    <h2>Co-op Experiences</h2>
+                    <h2><span class="material-icons">work_outline</span>Co-op Experiences</h2>
                     <Switch>
                         <Route exact path="/coop">
                             <CoopMain/>

@@ -5,7 +5,7 @@ export default class ProjectWebScraper extends React.Component {
     render() {
         return (
             <div>
-                <h3>COVID-19 News Site and Web Scraper</h3>
+                <h3><span class="material-icons">coronavirus</span>COVID-19 News Site and Web Scraper</h3>
                 <h4>Software Engineering Class Project (June 2020 - August 2020)</h4>
                 <p><b>Technical Skills:</b> Unity3D, C#, HTML</p>
                 <p>Worked on the web scraper portion of a COVID-19 web site project.</p>

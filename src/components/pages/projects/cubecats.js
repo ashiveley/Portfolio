@@ -5,7 +5,7 @@ export default class ProjectCubecats extends React.Component {
     render() {
         return (
             <div>
-                <h3>UC Cubecats</h3>
+                <h3><span class="material-icons">public</span>UC Cubecats</h3>
                 <h4>Involvement (August 2018 - January 2020)</h4>
                 <p><b>Technical Skills:</b> C++ with Arduino, Debugging</p>
                 <p>Worked on the code and connecting electrical components to the Arduino computer for the high altitude balloon.</p>

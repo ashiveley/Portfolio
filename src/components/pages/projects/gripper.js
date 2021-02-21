@@ -1,7 +1,7 @@
 import React from 'react';
-import ImageGallery from 'react-image-gallery';
 import gripperFinal from '../../../images/gripperFinal.jpg';
 import gripperPoster from '../../../images/gripperPoster.png';
+import ImageScroller from '../../imagescroller';
 
 const images = [
     { original: gripperFinal },
@@ -13,7 +13,7 @@ export default class ProjectGripper extends React.Component {
     render() {
         return (
             <div>
-                <h3>Gripper for Individuals with Limited Mobility</h3>
+                <h3><span class="material-icons">accessibility</span>Gripper for Individuals with Limited Mobility</h3>
                 <h4>Honors Experience (January 2019 - May 2019)</h4>
                 <p><b>Technical Skills:</b> C++ for Arduino, Engineering Design Process, Debugging</p>
                 <p>Worked with a team focusing on the design process of prototyping a gripper utilizing
@@ -28,7 +28,7 @@ export default class ProjectGripper extends React.Component {
                 of the project.  During the showcase, one judge stated that they would have created
                 tests for the prototype before designing, which occurred to me as a method of
                 development used in the software industry (test driven development).</p>
-                <ImageGallery items={images} showThumbnails={false} autoPlay={true} showPlayButton={false} slideInterval={10000} />
+                <ImageScroller images={images} />
             </div>
         );
     }

@@ -5,7 +5,7 @@ export default class ProjectPortfolio extends React.Component {
     render() {
         return (
             <div>
-                <h3>Portfolio</h3>
+                <h3><span class="material-icons">code</span>Portfolio</h3>
                 <h4>Personal Project (October 2018 - Present)</h4>
                 <p><b>Technical Skills:</b> React JS, HTML, CSS (first version used Vue)</p>
                 <h5>Source Code:</h5>

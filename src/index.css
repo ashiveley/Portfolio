@@ -19,11 +19,39 @@ body {
 }
 
 .topbar {
-  background-color: lightgray;
+  background-color: rgba(0, 72, 139, 0.8);
   grid-area: header;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: white;
+  border-bottom: 1px solid rgba(135, 207, 235, 1);
+}
+
+.topbar .h1 {
+  align-self: flex-end;
+}
+
+a.linkbutton{
+  color: lightblue;
+}
+
+a.linkbutton:hover {
+  font-weight: bold;
+}
+
+a.linkbutton.active {
+  font-weight: bold;
+}
+
+a.side.linkbutton:hover {
+  background-color: rgba(0, 0, 61, 0.5);
+}
+
+a.side.linkbutton.active {
+  margin-left: 15%;
+  margin-right: -5%;
+  background-color: rgba(0, 0, 61, 0.5);
 }
 
 h2 {
@@ -38,14 +66,19 @@ h2 {
   display: flex;
   flex-direction: row;
   margin-right: 100px;
+  align-self: center;
 }
 
 .sidebar {
-  background-color: rgb(233, 233, 233);
+  background-color: rgba(22, 96, 255, 0.05);
   grid-area: sidebar;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-left: double rgba(135, 207, 235, 0.5);
+  border-right: double rgba(135, 207, 235, 0.5);
 }
 
 .sidebar * {
@@ -61,21 +94,28 @@ h2 {
 
 .content {
   padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
   grid-area: main;
   margin-right: 20%;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 9px 0px 0px rgba(255, 255, 255, 0),
+    0 -9px 0px 0px rgba(255, 255, 255, 0),
+    inset 12px 0 15px -10px rgb(17, 17, 17),
+    inset -12px 0 8px -10px rgb(17, 17, 17);
 }
 
 .linkbutton {
-  margin: 5px 10px;
+  margin: 5px 15px;
 }
 
 .side.linkbutton {
-  border: 1px solid black;
+  border: 1px solid white;
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .side.linkbutton * {
@@ -85,17 +125,12 @@ h2 {
 
 .side.linkbutton .name {
   text-decoration: underline;
-  color: blue;
+  color: lightblue;
 }
 
 .side.linkbutton .time {
   font-size: 75%;
   align-self: flex-end;
-}
-
-.linkbutton.active {
-  background-color: #4caf50;
-  color: white;
 }
 
 h1 {
@@ -104,4 +139,19 @@ h1 {
 
 .image-gallery {
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: -100;
+  min-height: 100%;
+}
+
+.material-icons{
+  font-size: 100%;
+  margin-right: 5px;
 }

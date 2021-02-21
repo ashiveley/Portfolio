@@ -19,40 +19,41 @@ export default class Projects extends React.Component {
         return (
             <div class="selectablecontent">
                 <SideBar>
-                    <SideLinkButton link="/projects/rando" name="Game Randomizers" time="October 2018 - Present"></SideLinkButton>
-                    <SideLinkButton link="/projects/portfolio" name="Portfolio" time="September 2019 - Present"></SideLinkButton>
-                    <SideLinkButton link="/projects/webscraper" name="COVID-19 Web Scraper" time="June 2020 - August 2020"></SideLinkButton>
-                    <SideLinkButton link="/projects/cubecats" name="UC Cubecats" time="August 2018 - January 2020"></SideLinkButton>
-                    <SideLinkButton link="/projects/mobile" name="Android Label Reader App" time="June 2018 - June 2019"></SideLinkButton>
-                    <SideLinkButton link="/projects/gripper" name="Gripper Honors Project" time="January 2019 - May 2019"></SideLinkButton>
-                    <SideLinkButton link="/projects/other" name="Other Minor Projects" time="&nbsp;"></SideLinkButton>
+                    <SideLinkButton exact link="/projects" time="&nbsp;">Overview</SideLinkButton>
+                    <SideLinkButton link="/projects/rando" time="October 2018 - Present"><span class="material-icons">casino</span>Game Randomizers</SideLinkButton>
+                    <SideLinkButton link="/projects/portfolio" time="September 2019 - Present"><span class="material-icons">code</span>Portfolio</SideLinkButton>
+                    <SideLinkButton link="/projects/webscraper" time="June 2020 - August 2020"><span class="material-icons">coronavirus</span>COVID-19 Web Scraper</SideLinkButton>
+                    <SideLinkButton link="/projects/cubecats" time="August 2018 - January 2020"><span class="material-icons">public</span>UC Cubecats</SideLinkButton>
+                    <SideLinkButton link="/projects/mobile" time="June 2018 - June 2019"><span class="material-icons">phone_android</span>Android Label Reader</SideLinkButton>
+                    <SideLinkButton link="/projects/gripper" time="January 2019 - May 2019"><span class="material-icons">accessibility</span>Gripper Honors Project</SideLinkButton>
+                    <SideLinkButton link="/projects/other" time="&nbsp;"><span class="material-icons">source</span>Other Minor Projects</SideLinkButton>
                 </SideBar>
                 <div class="content">
-                    <h2>Projects &amp; Involvement</h2>
+                    <h2><span class="material-icons">code</span>Projects &amp; Involvement</h2>
                     <Switch>
                         <Route exact path="/projects">
-                            <ProjectMain/>
+                            <ProjectMain />
                         </Route>
                         <Route exact path="/projects/rando">
-                            <ProjectRando/>
+                            <ProjectRando />
                         </Route>
                         <Route exact path="/projects/portfolio">
-                            <ProjectPortfolio/>
+                            <ProjectPortfolio />
                         </Route>
                         <Route exact path="/projects/webscraper">
-                            <ProjectWebScraper/>
+                            <ProjectWebScraper />
                         </Route>
                         <Route exact path="/projects/cubecats">
-                            <ProjectCubecats/>
+                            <ProjectCubecats />
                         </Route>
                         <Route exact path="/projects/mobile">
-                            <ProjectMobile/>
+                            <ProjectMobile />
                         </Route>
                         <Route exact path="/projects/gripper">
-                            <ProjectGripper/>
+                            <ProjectGripper />
                         </Route>
                         <Route exact path="/projects/other">
-                            <ProjectOther/>
+                            <ProjectOther />
                         </Route>
                     </Switch>
                 </div>

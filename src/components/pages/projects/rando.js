@@ -1,10 +1,10 @@
 import React from 'react';
-import ImageGallery from 'react-image-gallery';
 import randoUI1 from '../../../images/randoUI1.png';
 import randoUI2 from '../../../images/randoUI2.png';
 import randoUI3 from '../../../images/randoUI3.png';
 import randoDocs from '../../../images/randoDocs.PNG';
 import randoff13 from '../../../images/randoff13.png';
+import ImageScroller from '../../imagescroller';
 
 const images = [
     { original: randoUI1 },
@@ -19,7 +19,7 @@ export default class ProjectRando extends React.Component {
     render() {
         return (
             <div>
-                <h3>Game Randomizers</h3>
+                <h3><span class="material-icons">casino</span>Game Randomizers</h3>
                 <h4>Personal Project (October 2018 - Present)</h4>
                 <p><b>Technical Skills:</b> C++, C#, Reverse Engineering, Data Encoding/Decoding, Debugging</p>
                 <h5>Source Code (Repos under profile used for game projects):</h5>
@@ -33,7 +33,7 @@ export default class ProjectRando extends React.Component {
                 <p>The first version of the program was written in C++, as this was my first C++ project. Later versions are entirely C# in order to standardize the code instead of having equivalent code in 2 languages.
                     This was done so that later versions focus on simplifying the data decoding and encoding processes and more complex logic algorithms.</p>
                 <p>This project so far taught me skills in basic reverse engineering and data encoding.  I also had to work with users to resolve issues they had and address any feedback.</p>
-                <ImageGallery items={images} showThumbnails={false} autoPlay={true} showPlayButton={false} slideInterval={10000} />
+                <ImageScroller images={images}/>
             </div>
         );
     }
