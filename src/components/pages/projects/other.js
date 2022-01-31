@@ -6,7 +6,7 @@ export default class ProjectOther extends React.Component {
         return (
             <div>
                 <h3><span class="material-icons">games</span>Minecraft Mods</h3>
-                <h4>Personal Project (March 2016 - Present)</h4>
+                <h4>Personal Project (2016 - 2020)</h4>
                 <p><b>Technical Skills:</b> Java</p>
                 <h5>Source Code:</h5>
                 <ul>

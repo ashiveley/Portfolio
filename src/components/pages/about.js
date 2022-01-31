@@ -10,12 +10,13 @@ export default class About extends React.Component {
                 <div class="content">
                     <h2><span class="material-icons">perm_identity</span>About</h2>
                     <img src={picture} alt="Profile" style={{ display: "block", marginLeft: "auto", marginRight: "auto" }}></img>
-                    <p>Hi! I'm Alexander Shiveley, a third-year majoring in Computer Science and minoring in Physics at the University of Cincinnati where I have completed 2 co-ops. Coding has been an interest of mine ever since middle school, where I started by making small games. Since then I have worked on larger projects and more recently started taking challenging but interesting classes like Data Analysis, Data Encoding, and Algorithms.  I've also been enjoying the more advanced Physics classes so far.</p>
+                    <p>Hi! I'm Alexander Shiveley, a fourth-year majoring in Computer Science and minoring in Physics at the University of Cincinnati where I have completed 3 co-ops. Coding has been an interest of mine ever since middle school, where I started by making small games. Since then I have worked on larger projects and more recently started taking challenging but interesting classes like Deep Learning, Data Encoding, and Algorithms.  I've also been enjoying the more advanced Physics classes so far.</p>
                     <p>At UC, I joined Cubecat's Catise program to launch a high altitude balloon, where I worked on the data collection computer and then assisted at the launch. To say the least, the launch failed due to a simple mistake of not tying a knot. It's always the small things!</p>
-                    <p>I am from Cincinnati, Ohio and went to Fairfield High School.  At Fairfield, I was a member of the engineering club and tutored others in Math, Science, and even German.   I was also part of the winning team at the University of Dayton hosted Math Competition in Spring 2018!</p>
+                    <p>I am from Cincinnati, Ohio and went to Fairfield High School.  At Fairfield, I was a member of the engineering club and tutored others in Math, Science, and German.   I was also part of the winning team at the University of Dayton hosted Math Competition in Spring 2018!</p>
                     <hr/>
                     <h2><span class="material-icons">code</span>Co-ops and Projects</h2>
-                    <p>So far at UC I have completed 2 co-ops in software engineering. These co-ops helped me not only develop technical skills, but also non-technical skills.</p>
+                    <p>So far at UC I have completed 3 co-ops in software engineering. These co-ops helped me not only develop technical skills, but also non-technical skills.</p>
+                    <p>For my senior design project at UC, I have chosen to research a topic I had interest in, noise in quantum computing.</p>
                     <span>Aditional information on co-ops:</span> <Link to="/coop">Link</Link>
                     <br />
                     <br />
@@ -28,7 +29,7 @@ export default class About extends React.Component {
                     I was expecting co-ops to be extremely beneficial, but after doing a couple I started to realize how accelerated learning could be in the workplace.
                     If I was to start over from the start of my time at UC, I wish that I gained some work experience early on as the benefits from that carry into the classes as well. 
                     </p>
-                    <p>Moving forward, I hope to continue to learn more about software engineering along with starting to explore areas of research and the future of computer science technology.</p>
+                    <p>Moving forward, I hope to continue to learn more about software engineering along with continuing to explore areas of research and the future of computer science technology.</p>
                     <hr/>
                     <h2><span class="material-icons">email</span>Contact Info</h2>
                     <p><b>Email: </b>shivelat@mail.uc.edu</p>
